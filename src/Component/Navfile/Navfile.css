@@ -1,0 +1,17 @@
+.me-auto{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-con{
+    background-color:rgb(156 191 225);
+}
+
+ Nav.link{
+    font-weight: 700px;
+}
+
+.me-auto {
+    text-decoration: none;
+}

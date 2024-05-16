@@ -1,0 +1,67 @@
+*{
+    font-family: math;
+}
+.soft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.min{
+    height: 128px;
+    border: 2px ;
+    width: 154px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    background-color:   rgb(79, 132, 184);
+    color: white;
+}
+.soft1,.soft2{
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-around;
+    width: 800px;
+}
+
+.mysoft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 890px;
+}
+
+@media only screen and (max-width:600px){
+    h2{
+        display: none;
+    }
+
+    .soft1,.soft2{
+      display: block;
+      margin-top: 0px;
+    }    
+
+    .min{
+        height: 100px;
+        border: 2px ;
+        width: 148px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 50%;
+        align-items: center;
+        background-color:   rgb(79, 132, 184);
+        color: white;
+    }
+
+    .mysoft{
+        height: 800px;
+    }
+    .mysoft h1{
+        font-size: large;
+    padding: 0px 0px 40px;
+    }
+}

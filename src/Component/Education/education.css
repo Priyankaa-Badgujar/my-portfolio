@@ -1,0 +1,59 @@
+*{
+    font-family: math;
+}
+
+.myedu{
+    border: 2px solid;
+    width: 40%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(127, 161, 195);
+    color: white;
+    font-weight: 500;
+    border-radius: 40px;
+}
+
+.myedu a{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-edu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 23px;
+    height: 800px;
+}
+.main{
+    font-weight: 700;
+}
+
+.myedu a:hover{
+    background-color:  rgb(69, 120, 171);
+}
+
+@media only screen and (max-width:600px){
+    .myedu{
+        border: 2px solid;
+        width: 81%;
+        height: 159px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(127, 161, 195);
+        color: white;
+        font-weight: 500;
+        border-radius: 40px;
+    }
+    .container-edu{
+        row-gap: 50px;
+    }
+}

@@ -1,0 +1,95 @@
+.container-about{
+    height: 500px;
+    display: flex;
+    margin-top: 160px;
+    justify-content:space-evenly;
+    font-family: 'math';
+}
+
+#p{
+    color: rgb(189, 38, 149);
+}
+#b{
+    color: rgb(142, 229, 80);
+}
+#t{
+    color: rgb(132, 228, 37);
+}
+#d{
+    color: rgb(151, 100, 200);
+}
+#dd{
+    color: rgb(215, 101, 124);
+}
+#i{
+    color: rgb(103, 92, 171);
+}
+#r{
+    color: hotpink;
+}
+#h{
+    color: rgb(43, 191, 191);
+}
+#ii{
+    color: rgb(221, 90, 90);
+}
+#a{
+    color: rgb(227, 80, 227);
+}
+#resume{
+    background-color: rgb(156 191 225);
+    color: black;
+    height: 43px;
+    font-weight: 700;
+    border: aliceblue;
+    font-family: system-ui;
+}
+
+.myimg{
+    height: 356px;
+    width: 446px;
+    border-radius: 50%;
+}
+
+#resume:hover{
+    color: rgb(156 191 225) ;
+    background-color: black;
+}
+
+@media only screen and (max-width:600px){
+    .myimg{
+    height: 193px;
+    width: 205px;
+    border-radius: 50%
+    }
+
+    .container-about{
+        height: 400px;
+        margin-top: 160px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content:space-evenly;
+        font-family: 'math';
+    }
+    .head h1{
+        font-size: x-large;
+    }
+    .head h2{
+        font-size: large;
+    }
+    .head{
+        font-size: x-large;
+    }
+    #resume{
+        background-color: rgb(156 191 225);
+        color: black;
+        height: 45px;
+        font-weight: 700;
+        border: aliceblue;
+        font-family: system-ui;
+        width: 147px;
+    font-size: medium;
+    }
+    
+    
+}

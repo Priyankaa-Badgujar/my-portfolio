@@ -1,0 +1,21 @@
+.foot{
+    background-color: rgb(24, 99, 174);
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    line-height: 79px;
+}
+
+i{
+    font-size: xx-large;
+    color: white;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    width: 320px;
+}

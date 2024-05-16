@@ -1,0 +1,47 @@
+form{
+    width: 550px;
+}
+
+.con-page{
+    display: flex;
+    justify-content: center;
+}
+
+.btn1{
+    background-color: rgb(156 191 225);
+    color: black;
+    height: 43px;
+    font-weight: 700;
+    border: aliceblue;
+    font-family: system-ui;
+    width: 125px;
+}
+
+.msg{
+    height: 200px;
+}
+
+#plc ::placeholder{
+   display: flex;
+   justify-content: center;
+}
+
+.btn1:hover{
+    color: rgb(156 191 225) ;
+    background-color: black;
+}
+
+textarea{
+    width: 557px;
+}
+
+@media only screen and (max-width:600px) {
+
+    form{
+        width: 335px;
+    }
+    textarea{
+        width: 330px;
+    }
+    
+}
